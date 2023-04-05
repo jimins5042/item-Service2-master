@@ -28,7 +28,7 @@ public class ItemController {
         @GetMapping("/insert")
         public String insertItem() {
             itemService.insertUser();
-            return "DB에서 확인해보세요";
+            return "DB에서 확인해보세요!";
         }
     }
 
